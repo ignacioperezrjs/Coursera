@@ -1,0 +1,121 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3901,        111]
+NotebookOptionsPosition[      2564,         81]
+NotebookOutlinePosition[      3009,         98]
+CellTagsIndexPosition[      2966,         95]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["DTU Wind Energy", "Title",
+ CellChangeTimes->{{3.9597670233299923`*^9, 
+  3.959767027720812*^9}},ExpressionUUID->"943d0962-da90-46ce-ac90-\
+f6fb682ffdcf"],
+
+Cell["Module 1", "Subtitle",
+ CellChangeTimes->{{3.959767030809064*^9, 
+  3.959767032073838*^9}},ExpressionUUID->"9ccc87c4-f37b-497d-bef2-\
+7787398870b6"],
+
+Cell["Excesrice 1", "Subsubtitle",
+ CellChangeTimes->{{3.959767034447892*^9, 
+  3.959767036471693*^9}},ExpressionUUID->"b561027b-89fd-494e-8834-\
+37bc7f919c1c"],
+
+Cell["Ignacio P\[EAcute]rez", "Author",
+ CellChangeTimes->{{3.959767039095858*^9, 
+  3.959767040612318*^9}},ExpressionUUID->"bc4d24e3-109d-4718-8296-\
+9fd62f7050ce"],
+
+Cell["Electrical Engineering Department", "Department",
+ CellChangeTimes->{{3.9597670426913977`*^9, 
+  3.9597670476511183`*^9}},ExpressionUUID->"9a8f622b-7311-48ad-bc9c-\
+b57bab756284"],
+
+Cell["24 Jun. 2025", "Date",
+ CellChangeTimes->{{3.959767052026648*^9, 
+  3.95976705457515*^9}},ExpressionUUID->"5c5c0349-f47d-45f2-97cf-\
+454a735e3cd7"],
+
+Cell[CellGroupData[{
+
+Cell["Enter section title here", "Section",ExpressionUUID->"c0bf8816-c0b9-4272-a743-3cfcbf87b009"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"x", "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+    "18", "+", "27", "+", "38", "+", "45", "+", "72", "+", "72", "+", "87", 
+     "+", "91", "+", "101"}], ")"}], "/", "9"}]}], "\[IndentingNewLine]", 
+ RowBox[{"N", "[", "x", "]"}]}], "Input",
+ CellChangeTimes->{{3.959767470172716*^9, 3.959767525011936*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"f95d480b-e656-405e-a985-3a858b849bf6"],
+
+Cell[BoxData[
+ FractionBox["551", "9"]], "Output",
+ CellChangeTimes->{{3.959767507310089*^9, 3.9597675256017447`*^9}},
+ CellLabel->"Out[3]=",ExpressionUUID->"f315a7e4-352f-4d1b-8c22-acde25252b8e"],
+
+Cell[BoxData["61.22222222222222`"], "Output",
+ CellChangeTimes->{{3.959767507310089*^9, 3.959767525604088*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"efa1d3f0-56f7-46c0-a9a2-698f82ce0319"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->Automatic,
+FrontEndVersion->"13.2 para Mac OS X x86 (64-bit) (January 30, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Report"}, "StandardReport.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"7b7b1a2f-c640-4cbf-ab93-835239d964e3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 160, 3, 97, "Title",ExpressionUUID->"943d0962-da90-46ce-ac90-f6fb682ffdcf"],
+Cell[743, 27, 154, 3, 33, "Subtitle",ExpressionUUID->"9ccc87c4-f37b-497d-bef2-7787398870b6"],
+Cell[900, 32, 160, 3, 31, "Subsubtitle",ExpressionUUID->"b561027b-89fd-494e-8834-37bc7f919c1c"],
+Cell[1063, 37, 165, 3, 40, "Author",ExpressionUUID->"bc4d24e3-109d-4718-8296-9fd62f7050ce"],
+Cell[1231, 42, 185, 3, 16, "Department",ExpressionUUID->"9a8f622b-7311-48ad-bc9c-b57bab756284"],
+Cell[1419, 47, 153, 3, 42, "Date",ExpressionUUID->"5c5c0349-f47d-45f2-97cf-454a735e3cd7"],
+Cell[CellGroupData[{
+Cell[1597, 54, 98, 0, 69, "Section",ExpressionUUID->"c0bf8816-c0b9-4272-a743-3cfcbf87b009"],
+Cell[CellGroupData[{
+Cell[1720, 58, 413, 9, 76, "Input",ExpressionUUID->"f95d480b-e656-405e-a985-3a858b849bf6"],
+Cell[2136, 69, 196, 3, 57, "Output",ExpressionUUID->"f315a7e4-352f-4d1b-8c22-acde25252b8e"],
+Cell[2335, 74, 189, 2, 41, "Output",ExpressionUUID->"efa1d3f0-56f7-46c0-a9a2-698f82ce0319"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
