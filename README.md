@@ -2,7 +2,7 @@
 
 A continuación se define la forma en la que estarán organizados los cursos en este repositorio.
 
-📂 coursera-learning/
+📂 coursera-learning/ \\
 │
 ├── README.md
 ├── 📂 [Nombre-del-Curso]/
